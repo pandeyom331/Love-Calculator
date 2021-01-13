@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Love calculator 💗</title>
+
+   <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
+
+    <!--Bootstrap CSS stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font awsm-->
+    <script src="https://kit.fontawesome.com/9bb8901042.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap java script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div class= "Container-fluid">
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffabe1;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LOVE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link " href="#Welcome"><strong>Welcome</strong></a>
+              <a class="nav-link" href="#Calculate"><strong>Calculate your 💗</strong></a>
+              <a class="nav-link" href="#Review"><strong>Review</strong></a>
+              <a class="nav-link" href="#footer"><strong>Contact me</strong></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+<section id="Welcome">
+ <div class="head">
+      <div class = "row">
+        <div class="col-lg-12">
+          <h1>Welcome to your Love Calculator <i class="fas fa-heart"></i></h1>
+        </div>
+
+        <div class="col-lg-6 quotes">
+          <p>The water shines only by the sun.<br> And it is you who is my sun.</p>
+        </div>
+        <div class="col-lg-6 quote">
+          <p>No matter how dark your day is,<br>if your partner lights up your heart.</p>
+        </div>
+      </div>
+</div>
+</section>
+
+
+<section id="Review">
+
+      <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="images/1.jpg" class="testimonial-image" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><em>Lorren & Harry</em></h5>
+              <p class="ram"><strong>Love calculator is such an amazing website. It is simple love test meter.<br /> It works nicely and simple to use.</strong></p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2500">
+            <img src="images/2.jpg" class="testimonial-image" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><em>Daisy & Om</em></h5>
+              <p class="ram"><strong>love calculator is amazing website.If we want to check either he/she is in<br /> love or not, I found my love using this website.</strong></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/3.jpg" class="testimonial-image" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5><em>Anurag & Shambhavi</em></h5>
+              <p class="ram"><strong>Love Calculator website is very good and easy to use.<br /> It is fast working site with so many features in it.</strong></p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleDark" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+    </section>
+
+
+<section id = "Calculate">
+
+      <div class = "row1">
+         <form method="get" name = "lf" class="form">
+
+         <div class="row">
+
+           <div class="col-lg-6 boom">
+             <label for="name1">Your name</label>
+             <input type="text" name="name1" id="name1" value="" size="30" autofocus="" placeholder="Full name">
+           </div>
+
+           <div class="col-lg-6 baam">
+             <label for="name2">Your crush</label>
+             <input type="text" name="name2" id="name2" value="" size="30" placeholder="Full name" >
+           </div>
+
+         </div>
+
+         <div class="row row--justify-content-center">
+          <div class="form-group form-group--color">
+            <button id ="mybutton" type="button" class="btn btn--primary" onClick="calculate()">Calculate love</button>
+          </div>
+        </div>
+       </form>
+    </div>
+</div>
+
+  </section>
+
+<section id="Calculated">
+  <div class="row2">
+
+   <h3 class = "cal">Calculated Love percentage is    <span id = "result"></span>% 💗 <br /><p class="rum"></p></h3>
+
+  </div>
+</section>
+
+<section>
+  <h3 class = "faa">Find the True Love of Your Life Today.</h3>
+</section>
+
+    <footer id="footer">
+      <a href="https://github.com/pandeyom331"><i class="git fab fa-github fa-1x "></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100004398076666"><i class="git fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/om_pandey305/"><i class="git fab fa-instagram "></i></a>
+      <a class="email" href="mailto:pandeyom305@gmail.com"><i class="git fas fa-envelope"></i></a>
+      <p>© Copyright 2020 Love calculator 💗</p>
+
+    </footer>
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script  src="script.js"></script>
+  </body>
+</html>

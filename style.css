@@ -1,0 +1,241 @@
+body{
+  background: #ff4c68;
+  box-sizing: content-box;
+width: 100%;
+}
+.head
+{
+  background-size: cover;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  background-image: url("images/first.jpg");
+  border-radius: 20px;
+  margin: 0 0 0 0;
+}
+h1
+{
+    font-size: 60px;
+    font-family: 'Montez', cursive;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.fas{
+  color: red;
+}
+
+.navbar{
+  border-radius: 20px;
+}
+
+.quotes
+{
+  font-family: 'Dancing Script', cursive;;
+  font-size:2rem;
+  line-height: 1.7;
+  font-weight: 800;
+  padding-right:100px;
+  padding-left:40px;
+    padding-top: 100px;
+      color: #d6efc7;
+      word-spacing: 3px;
+}
+
+.quote
+{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  line-height: 1.7;
+  font-weight: 800;
+  padding-left:100px;
+  padding-top: 100px;
+  text-align: center;
+  padding-right: 0;
+  color: #d6efc7;
+  word-spacing: 3px;
+}
+
+.testimonial-image
+{
+  width:60%;
+  height: 80%;
+  border-radius: 20%;
+  margin-left:20%;
+  padding: 70px 0 70px 0;
+}
+
+.ram{
+padding-top: 20px;
+margin-bottom: 40px;
+line-height: 1;
+font-size: 1.1rem;
+font-weight: 400;
+word-spacing: 2px;
+color:#f3eac2;
+letter-spacing: 1.25px;
+}
+
+.row1
+{
+  background-size: cover;
+  height: 110vh;
+  width : auto;
+  display: flex;
+  justify-content: center;
+  background-image: url("images/picsart.jpg");
+  border-radius: 20px;
+  margin: 0 0 0 0;
+}
+
+/* FORM */
+
+.form {
+    padding: 90px 30px 30px;
+    position: relative;
+    margin-top: 20%;
+}
+
+@media (min-width: 768px)
+.form .form-group + .form-group {
+    padding-top: 0;
+    margin-left: 50px;
+}
+
+.form label {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 23px;
+    color: black;
+    padding-left: 35%;
+    color: red;
+}
+
+.form input {
+    border-radius: 30px 30px;
+    height: 60px;
+    font-size: 1rem;
+    text-align: center;
+    -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
+    border-style: none;
+    z-index: 1;
+    line-height: 23px;
+    outline: none !important;
+    width: 100%;
+    -webkit-appearance: none;
+}
+.boom{
+  padding-right: 100px;
+}
+.baam
+{
+  padding-left: 100px;
+}
+.form .form-group--color {
+    margin-top: 20px;
+}
+.form .form-group {
+    text-align: center;
+}
+
+.btn--primary {
+    background: -webkit-gradient(linear, left top, right top, from(#c7081f), to(#ec5700));
+    background: -webkit-linear-gradient(left, #c7081f 0%, #ec5700 100%);
+    background: -o-linear-gradient(left, #c7081f 0%, #ec5700 100%);
+    background: linear-gradient(90deg, #c7081f 0%, #ec5700 100%);
+}
+.btn {
+    color: white;
+    font-weight: 600;
+    -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
+    height: 60px;
+    padding: 0 30px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 1.15789rem;
+    text-align: center;
+    text-decoration: none;
+    line-height: 60px;
+    border: none;
+    margin-top: 90px;
+}
+
+button {
+    appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.faa{
+  padding: 7% 13%;
+  text-align: center;
+  background-color: #ff4c68;
+ color: white;
+ font-family: "Montserrat-Black";
+ font-size: 3.5rem;
+ line-height:1.2;
+}
+
+#footer{
+  padding: 5% 11%;
+  text-align: center;
+  background-color:#fff;
+
+}
+
+.git
+{
+  color: grey;
+ margin : 20px 10px;
+ border-radius: 20px;
+}
+.git:hover{
+  color: blue;
+}
+
+.row2
+{
+  background-size: cover;
+  height: 130vh;
+  width : auto;
+  display: flex;
+  justify-content: center;
+  background-image: url("images/raju1.jpg");
+  border-radius: 20px;
+  margin: 0 0 0 0;
+  margin-top: 40px;
+}
+.cal
+{
+  font-size: 60px;
+  font-family: 'Montez', cursive;
+  margin-top: 1rem;
+  text-align: center;
+  padding-top:35%;
+  font-weight: bold;
+  color: #ff4c68;
+}
