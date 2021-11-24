@@ -48,7 +48,7 @@ function makeSound(key)
   }
   else if(sum > 100)
   {
-    var sound2 = new Audio("music/you.mp3");
+    var sound2 = new Audio("music/you.m4a");
     return sound2.play();
   }
   else if(sum < 50)
